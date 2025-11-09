@@ -1,0 +1,93 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fffaf3;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #f4c95d;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Booking Section */
+.booking-section {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.booking-section h2 {
+  text-align: center;
+  color: #f4a261;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2a9d8f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #21867a;
+}
+
+#confirmationMsg {
+  text-align: center;
+  margin-top: 1rem;
+  color: #2a9d8f;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #f4c95d;
+  padding: 1rem;
+  margin-top: 3rem;
+}
